@@ -1,0 +1,96 @@
+/* Add To The Main CSS, FOR CREDIT AND CONTACT PAGE*/
+
+/*Credit Page*/
+
+h2.cred{
+	margin-top: 0;
+	margin-bottom: 30pt;
+	font-weight: bold;
+	font-size: 40pt;
+}
+
+.content{
+padding-left: 30%;
+}
+
+p.cred{
+	color: black;
+	padding-top: 0;
+	margin-bottom: 5pt;
+}
+
+h1.cred1{
+	font-size: 15pt;
+	margin-top: 20pt;
+	color: #ff7979;
+}
+
+h1.cred2{
+	font-size: 15pt;
+	margin-top: 50pt;
+	color: #ff7979;
+}
+
+h1.cred3{
+	font-size: 15pt;
+	margin-top: 50pt;
+	color: #ff7979;
+}
+
+
+
+/*Contact Page*/
+
+.cont-info{
+	color: black;
+	margin-bottom: 0;
+}
+
+h2.cont{
+	margin-top: 0;
+	margin-bottom: 30pt;
+	font-weight: bold;
+	font-size: 40pt;
+}
+
+.cont{
+	padding: 0% 10%;
+	padding-bottom: 5%
+}
+
+p.cont{
+	color: black;
+	padding-top: 0;
+	margin-bottom: 5pt;
+}
+
+/* Contact Form */
+
+placeholder {
+  color: black;
+  opacity: 1;
+}
+
+p#cont-form{
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+input.cont{
+	border-color: black;
+	color: grey;
+}
+
+textarea{
+	border-color: black;
+}
+
+#category{
+	border-color: black;
+	padding: 10;
+}
+
+label#cont{
+	color: black;
+	font-size: 11pt;
+}

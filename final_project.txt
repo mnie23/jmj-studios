@@ -1,0 +1,23 @@
+mnie | Michelle Nie 
+
+Teammates: 
+	Joanna Jung
+	Julia So 
+
+a) Website: http://cs-people.bu.edu/mnie/index.html
+
+b) We created this website using a CSS template 
+
+c) https://html5up.net/landed 
+
+d) Lightbox
+		We used lightbox to show our images on our graphic design page, illustration and ui/ux page 
+		
+	TypeIt
+		We used typeit to show the description of our website on the homepage 
+		
+e) Prompt 
+		On the graphic design page, there is a link called "New Project". The user has to first answer 
+		prompt "Do you want to see the newest project"? If they responded "Y", the time based website will 
+		appear on the page. If they respond "N", then they get an alert saying "You can not see the website"
+

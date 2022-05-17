@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Graphic Design | JMJ Studio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="assets/lightbox2-dev/dist/css/lightbox.css" rel="stylesheet" />
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;700;900&display=swap');
+		</style>
+	</head>
+	
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">JMJ</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="graphicdesign.html" class="nav">Graphic Design</a></li>
+							<li><a href="illustration.html" class="nav">Illustration</a></li>
+							<li><a href="uxui.html" class="nav">UX/UI</a></li>
+							<li><a href="about.html" class="nav">About Us</a></li>
+							<li><a href="contacts.html" class="nav">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Graphic Design</h2>
+							<p>A collection of work ranging from branding, motion graphic and digital posters.</p>
+						</header>
+
+						<!-- Content -->
+						<div id="time_website">
+							<h3 id="time"><a href="https://timeportrayals.cargo.site" target="_blank"> Time Based Website </a></h3>
+							<p> Interactive website that portrays movie quotes about time </p>
+							<video controls="" autoplay loop class="gd_annency">
+								<source src="videos/time-portrayl.mov">
+							</video>
+						</div>
+						
+						<!-- Hides the Time Website --> 
+						<script>
+						document.getElementById("time_website").setAttribute("style","display:none");
+						</script>
+					
+						<section id="content">
+				
+								<h3 id="new_project"><a onclick="ask()">New Project</a></h3>
+
+			
+								<h3> Annecy Festival </h3>
+								<p> Kinetic typography for Annecy Festival </p>							
+								<video controls="" autoplay loop class="gd_annency">
+									<source src="videos/stagescreen.mov" type=video/mp4>
+								</video>
+								
+								<h3> Multiple Formats </h3>	
+								<p> Motion graphic posters for the Multiple Formats Symposium hosted by Boston University, College of Fine Arts </p>
+								<video controls="" autoplay loop class="gd_mf">	
+									<source src="videos/multipleformats_2.mov" type=video/mp4>
+								</video>
+								
+								<video controls="" autoplay loop class="gd_mf">	
+									<source src="videos/multipleformats_1.mov" type=video/mp4>
+								</video>
+								
+								<h3>Boston University Libraries</h3>
+								<p> A series of digital and print media for Boston University Libraries </p>
+								
+								<a href="images/welcome.jpg" data-lightbox="graphic-design" data-title="Welcome Back Poster for Warren Towers"><img src="images/welcome.jpg" class="gd_images"></a>
+								<a href="images/springcleaning.png" data-lightbox="graphic-design" data-title = "Spring Cleaning digtial poster for Instagram"><img src="images/springcleaning.png" class="gd_images"></a>
+								<a href="images/cherry.png" data-lightbox="graphic-design" data-title = "Cherry on Top digital poster for Instagram"><img src="images/cherry.png" class="gd_images"></a>
+								
+							</section>
+							
+							
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="container">
+						<header>
+							<h2 class="h2_contact">Contact Us</h2>
+							<p class="p_contact">Interested in working together? Let's Connect</p>
+						</header>
+							<div>
+								<ul class="button_contact">
+									<li> <a href="contacts.html"" id="button_contact">Get Started</a></li>
+								</ul>
+							</div>
+					</div>
+					<ul class="copyright">
+						<li> &copy; 2022 Julia So, Joanna Jung, Michelle Nie</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li><a href="credits.html">Credits</a></li>
+					</ul>
+				</footer>
+		</div>
+		
+		
+		<!-- Prompt -->
+				<script>
+				function ask(){
+				var answer = prompt("Are you interested in seeing the newest project? If yes, put 'Y'. Otherwise, put 'N'.");
+				console.log(answer);
+				if (answer==="N" || answer ==="n"){
+				alert("If this is the case, you are not allowed to see this website!");
+				document.getElementById("time_website").setAttribute("style","display:none");	
+				} else if(answer==="Y" || answer ==="y"){
+				document.getElementById("time_website").setAttribute("style","display");
+				document.getElementById("new_project").setAttribute("style","display:none");
+				}
+				}
+				</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
+	</body>
+</html>
